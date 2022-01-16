@@ -8,7 +8,7 @@ import { Fragment } from "react";
 export default function Projects() {
     return (
         <Fragment>
-            <h1 className="title">Proyectos</h1>
+            <h1 className="title" id='proyectos'>Proyectos</h1>
             <div className="project_container">
                 <CardProject imagen={projectTiempo}></CardProject>
                 <CardProject imagen={projectHTML}></CardProject>

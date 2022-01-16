@@ -1,18 +1,36 @@
 .diploma{
-    height: 100px;
+    width: 200px;
     border-radius: 15px;
 }
 .diploma:hover{
-    transform: scale(4);
+    transform: scale(2.5);
 }
 .training_container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
 }
 .formacion {
-    color: #7C99AC;
+    color: #146356;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1rem;
+}
+.curso_description{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.title_formacion{
+    color: #146356;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 4rem;
 }

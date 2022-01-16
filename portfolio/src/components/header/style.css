@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    background-color: #146356;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    background-color: #146356;
+    color: rgb(223, 213, 215);
+    margin-right: 10px;
+}

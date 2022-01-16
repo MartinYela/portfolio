@@ -4,7 +4,7 @@ import myPicture from '../../imagenes/fotoPerfil.jpg'
 export default function AboutMe() {
     return (
         <div>
-            <h1 className='me'>Martín Alfredo Yela</h1>
+            <h1 className='me' id='me'>Martín Alfredo Yela</h1>
             <p className='profession'>Desarrollador Full Stack Junior</p>
             <div className='container_aboutMe'>
                 <img className='myPicture' src={myPicture} alt="foto postulante" />

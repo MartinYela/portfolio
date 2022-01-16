@@ -1,8 +1,8 @@
-.title {
-    color: #7C99AC;
+.title_tecnologies {
+    color: #146356;
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3.4rem;
 }
 .logo {
     height: 90px;
@@ -13,4 +13,34 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    -webkit-animation: scale-up-bottom 7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-bottom 7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+@-webkit-keyframes scale-up-bottom {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  @keyframes scale-up-bottom {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
