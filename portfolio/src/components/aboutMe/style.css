@@ -1,0 +1,30 @@
+.myPicture{
+    width: 10%;
+    min-width: 100px;
+    border: 5px solid #7C99AC;
+}
+.descriptionAboutMe{
+    color: #7C99AC;
+    width: 80%;
+    font-size: 1rem;
+}
+.container_aboutMe {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+.me {
+    color: #7C99AC;
+    text-align: center;
+    margin-top: 1rem;
+}
+.profession {
+    color: #7C99AC;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

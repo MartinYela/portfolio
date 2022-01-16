@@ -1,0 +1,16 @@
+.title {
+    color: #7C99AC;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.logo {
+    height: 90px;
+}
+.logos_container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
