@@ -5,6 +5,7 @@ import Tecnologias from '../../components/tecnologias/tecnologias';
 import { Fragment } from 'react';
 import Training from '../../components/training/training';
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 export default function Principal() {
     return(
@@ -14,7 +15,7 @@ export default function Principal() {
             <Tecnologias></Tecnologias>
             <Training></Training>
             <Projects></Projects>
-            
+            <Footer></Footer> 
         </Fragment>
     )
 }

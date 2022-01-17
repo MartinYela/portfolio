@@ -1,0 +1,16 @@
+footer{
+    background-color: #146356;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    color: rgb(223, 213, 215);
+    font-size: 1.5rem;
+}
+.telLink{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
