@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header className='menu'>
             <div className='datosContacto'>
-                <img className='linkedin' src={logoLinkedin} alt="logo linkedin" />
+                <a href="https://www.linkedin.com/in/martín-alfredo-yela"><img className='linkedin' src={logoLinkedin} alt="logo linkedin" /></a>
                 <p>692580956</p>
             </div>
             <div>

@@ -27,4 +27,6 @@ a{
 }
 .linkedin{
     height: 4rem;
+    margin-top: 5px;
+    cursor: pointer;
 }
