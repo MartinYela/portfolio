@@ -9,7 +9,7 @@ import { Fragment } from "react";
 const textoProyectos = [
     {
         "appTiempo" : "Proyecto realizado en conjunto con alumnos de IX UI. Aprendimos a utilizar paletas de componentes (material ui) y solidificamos conocimientos de React y llamadas a API. Es una versión móvil",
-        "enlace" : "https://pedroac98.github.io/tiempo-app/"
+        "enlace" : "https://martinyela.github.io/tiempo-app/"
     },
     {
         "html-css" : "Primer proyecto del bootcamp, realizado utilizando solamente HTML5 y CSS3",

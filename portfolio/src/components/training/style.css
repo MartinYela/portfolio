@@ -34,3 +34,11 @@
     text-align: center;
     padding-top: 4rem;
 }
+
+@media (max-width:500px) {
+    .formacion{
+        font-size: 0.8rem;
+        gap: 1.5rem;
+        margin-left: 5px;
+    }
+}

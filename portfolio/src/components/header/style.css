@@ -11,11 +11,15 @@
     z-index: 23;
     
 }
-a{
+.enlaces{
     text-decoration: none;
     color: rgb(223, 213, 215);
     margin-right: 10px;
     cursor: pointer;
+}
+.enlaces_green{
+    color: #146356;
+    text-decoration: none;
 }
 
 .datosContacto{
@@ -39,7 +43,7 @@ ul{
   
   input:checked  ~ ul{
     display:block;
-    margin-top: 10px;
+    margin-top: 2px;
   }
   
   input {
