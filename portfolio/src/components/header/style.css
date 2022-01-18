@@ -8,7 +8,6 @@
     width: 100%;
     height: 2rem;
     align-items: center;
-    cursor: pointer;
     z-index: 23;
     
 }
@@ -16,6 +15,7 @@ a{
     text-decoration: none;
     color: rgb(223, 213, 215);
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .datosContacto{
@@ -30,3 +30,61 @@ a{
     margin-top: 5px;
     cursor: pointer;
 }
+
+
+
+ul{
+    display: none;
+  }
+  
+  input:checked  ~ ul{
+    display:block;
+    margin-top: 10px;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  label {
+    color: rgb(223, 213, 215);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  input:checked ~ label {
+    background: #146356; 
+  }
+  
+  li {
+    display: block;
+    background: rgb(223, 213, 215);
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid #146356;
+    color: #146356;
+  }
+  .boton{
+    display: none;
+  }
+
+  @media (max-width: 500px){
+      .boton{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+      }
+      .menu{
+          align-items: flex-start;
+      }
+      .menu_grande{
+          display: none;
+      }
+      .datosContacto{
+          margin-top: -21px;
+      }
+  }
