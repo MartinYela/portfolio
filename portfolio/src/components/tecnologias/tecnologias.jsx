@@ -12,7 +12,7 @@ import logoPython from '../../imagenes/python.png';
 
 export default function Tecnologias() {
     return(
-        <Fragment>
+        <div className='container_tecnologies'>
             <h1 className="title_tecnologies">Tecnologías que manejo</h1>
             <div className='logos_container'>
                 <img className='logo' src={logoJava} alt="logo java" />
@@ -25,6 +25,6 @@ export default function Tecnologias() {
                 <img className='logo' src={logoGithub} alt="logo github" />
                 <img className='logo' src={logoPython} alt="logo python" />
             </div>
-        </Fragment>
+        </div>
     )
 }

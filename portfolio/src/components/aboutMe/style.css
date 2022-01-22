@@ -1,35 +1,38 @@
-.myPicture{
-    width: 120px;
-    min-width: 100px;
-    border: 5px solid #146356;
-}
-.curriculum{
-    color: #146356;
-}
-
-.descriptionAboutMe{
-    color: #146356;
-    width: 80%;
-    font-size: 1rem;
-}
-.container_aboutMe {
+.banner_container{
     width: 100%;
+    height: 125px;
+    background-color: #678983;
+    margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    text-align: justify;
+    justify-content: space-around;
     align-items: center;
 }
-.me {
-    color: #146356;
-    text-align: center;
-    padding-top: 3rem;
+.me{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
-.profession {
-    color: #146356;
+.text_me{
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    color: #181D31;
+}
+.logo_me{
+    width: 120px;
+    height: 120px;
+}
+.descriptionAboutMe{
+    color: #181D31;
+    width: 90%;
+    height: 180px;
+    font-size: 1.5rem;
+}
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+}
+.tel {
+    color: #E6DDC4;
 }

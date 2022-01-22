@@ -1,5 +1,5 @@
 .title_tecnologies {
-    color: #146356;
+    color: #181D31;
     font-size: 1.4rem;
     text-align: center;
     margin-top: 3.4rem;
@@ -43,4 +43,8 @@
       -webkit-transform-origin: 50% 100%;
               transform-origin: 50% 100%;
     }
+  }
+  .container_tecnologies{
+          height: 200px;
+          background-color: #678983;
   }

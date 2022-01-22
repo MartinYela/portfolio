@@ -7,7 +7,7 @@ export default function Header() {
         <header className='menu'>
             <div className='datosContacto'>
                 <a href="https://www.linkedin.com/in/martín-alfredo-yela"><img className='linkedin' src={logoLinkedin} alt="logo linkedin" /></a>
-                <p>692580956</p>
+                <p className='tel'>692580956</p>
             </div>
             <div className='menu_grande'>
                 <a className='enlaces' href='#me'>SOBRE MI</a>
