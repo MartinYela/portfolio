@@ -4,7 +4,7 @@ import myLogo from '../../imagenes/aboutMe/ordenador.png'
 
 export default function AboutMe() {
     return (
-        <div className='aboutMe'>
+        <div className='aboutMe' id='me'>
             <div className='banner_container'>
                 <img className='me' src={myPicture} alt="Foto Martín Alfredo Yela" />
                 <div className='text_me'>
