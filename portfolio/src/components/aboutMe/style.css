@@ -53,7 +53,7 @@
 }
 @media (max-width: 610px) {
     .descriptionAboutMe{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 @media (max-width: 550px) {
@@ -63,7 +63,7 @@
 }
 @media (max-width: 400px) {
     .descriptionAboutMe{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .text_me h1{
         font-size: 1.5rem;
