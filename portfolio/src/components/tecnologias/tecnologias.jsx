@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import './style.css';
 import logoJava from '../../imagenes/javaRecorte.png';
 import logoJs from '../../imagenes/css3.png';

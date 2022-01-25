@@ -17,12 +17,18 @@
     margin-right: 10px;
     cursor: pointer;
 }
+.enlaces_green{
+    text-decoration: none;
+    color: #E6DDC4;
+    margin-right: 10px;
+    cursor: pointer;
+}
 
 .datosContacto{
     margin-left: 10px;
     display: flex;
     gap: 1rem;
-    color: rgb(223, 213, 215);
+    color: #E6DDC4;
     align-items: center;
 }
 .linkedin{
@@ -47,7 +53,7 @@ ul{
   }
   
   label {
-    color: rgb(223, 213, 215);
+    color: #E6DDC4;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -56,23 +62,23 @@ ul{
   
   /* Estilo del boton cuando el menú está expandido*/
   input:checked ~ label {
-    background: #146356; 
+    background: #181D31; 
   }
   
   li {
     display: block;
-    background: rgb(223, 213, 215);
+    background: #181D31;
     margin: 0;
     padding: 10px;
     list-style: none;
-    border-bottom: 1px solid #146356;
-    color: #146356;
+    border-bottom: 1px solid #E6DDC4;
+    color: #E6DDC4;
   }
   .boton{
     display: none;
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 600px){
       .boton{
           display: flex;
           flex-direction: column;

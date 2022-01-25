@@ -8,14 +8,16 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
 export default function Principal() {
-    return(
+    return (
         <Fragment>
-            <Header></Header>
-            <AboutMe></AboutMe>
-            <Tecnologias></Tecnologias>
+            <div className='firstView'>
+                <Header></Header>
+                <AboutMe></AboutMe>
+                <Tecnologias></Tecnologias>
+            </div>
             <Training></Training>
             <Projects></Projects>
-            <Footer></Footer> 
+            <Footer></Footer>
         </Fragment>
     )
 }

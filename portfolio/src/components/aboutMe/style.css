@@ -23,16 +23,56 @@
 .descriptionAboutMe{
     color: #181D31;
     width: 90%;
-    height: 180px;
+    margin-bottom: 2rem;
+    /* min-height: 230px; */
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutMe {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 15vh;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 .tel {
     color: #E6DDC4;
+}
+
+@media (max-width: 800px) {
+    .descriptionAboutMe{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 800px) {
+    .aboutMe{
+        gap: 10vh;
+    }
+}
+@media (max-width: 610px) {
+    .descriptionAboutMe{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 550px) {
+    .logo_me{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .descriptionAboutMe{
+        font-size: 0.8rem;
+    }
+    .text_me h1{
+        font-size: 1.5rem;
+    }
+    .text_me p{
+        font-size: 0.8rem;
+    }
+    .me{
+        height: 80px;
+        width: 80px;
+    }
 }

@@ -2,13 +2,11 @@
     color: #181D31;
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 3.4rem;
 }
 .logo {
     height: 90px;
 }
 .logos_container{
-    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -47,4 +45,28 @@
   .container_tecnologies{
           height: 200px;
           background-color: #678983;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 1rem;
   }
+
+  @media (max-width: 925px){
+          .logo{
+                  height: 70px;
+          }
+          
+  }
+  @media (max-width: 740px){
+          .container_tecnologies{
+                  height: 225px;
+          }
+}
+  @media (max-width: 420px){
+        .logo{
+                height: 50px;
+        }
+        .container_tecnologies{
+                height: 200px;
+        }
+}
