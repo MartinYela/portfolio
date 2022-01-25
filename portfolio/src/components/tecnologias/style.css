@@ -59,14 +59,11 @@
   }
   @media (max-width: 740px){
           .container_tecnologies{
-                  height: 225px;
+                  height: 240px;
           }
 }
   @media (max-width: 420px){
         .logo{
                 height: 50px;
-        }
-        .container_tecnologies{
-                height: 200px;
         }
 }
