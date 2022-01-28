@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0d19a041.css",
-    "main.js": "/portfolio/static/js/main.e1a2d23c.js",
+    "main.js": "/portfolio/static/js/main.e1deba8c.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/marvel.png": "/portfolio/static/media/marvel.eb92a1121f0b98e7b662.png",
     "static/media/tiempoOk.png": "/portfolio/static/media/tiempoOk.0a06fc7cfff6d53d1125.png",
@@ -11,7 +11,7 @@
     "static/media/me.png": "/portfolio/static/media/me.93c5718d3dd519d01a75.png",
     "static/media/MERN.jpg": "/portfolio/static/media/MERN.28b7cd66e05a960f7670.jpg",
     "static/media/ordenador.png": "/portfolio/static/media/ordenador.7f2ac9cf96db5fb9658a.png",
-    "static/media/curriculum-MartinYela.pdf": "/portfolio/static/media/curriculum-MartinYela.f2e999de84d573202b7e.pdf",
+    "static/media/curriculum-MartinYela.pdf": "/portfolio/static/media/curriculum-MartinYela.a11b66c0cc3c9cb0cb1c.pdf",
     "static/media/tetris2.png": "/portfolio/static/media/tetris2.f80bcebf54696c8b9787.png",
     "static/media/kanbas.png": "/portfolio/static/media/kanbas.d6759e7c866b316517bb.png",
     "static/media/python.png": "/portfolio/static/media/python.3773b61d7de3dd14e7ef.png",
@@ -21,11 +21,11 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.57e005ffe2f3b5ef3c9d.png",
     "index.html": "/portfolio/index.html",
     "main.0d19a041.css.map": "/portfolio/static/css/main.0d19a041.css.map",
-    "main.e1a2d23c.js.map": "/portfolio/static/js/main.e1a2d23c.js.map",
+    "main.e1deba8c.js.map": "/portfolio/static/js/main.e1deba8c.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d19a041.css",
-    "static/js/main.e1a2d23c.js"
+    "static/js/main.e1deba8c.js"
   ]
 }
